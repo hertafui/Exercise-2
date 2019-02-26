@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kalculator</title>
+<link rel="stylesheet" type="text/css" href="kalku.css">
+</head>
+<body>
+
+
+<div align="center" id="kotak">
+
+    <h1>Kalkulator</h1>
+   <div id="kotak1">
+       <p class="kanan"> Masukkan Angka Pertama </p>
+       <input name="number1" type="text" size="17" id='ang1' class ="kiri"/>
+       <p class="kanan"> Masukkan Angka Kedua </p>
+       <input name="number2" type="text" size="17" id='ang2' class="kiri"/>
+  
+   </div>   
+   <div id="kotak2">
+        <button onclick="kalkulator('1')
+        ">+</button>
+        <button onclick="kalkulator('2')">-</button>
+        <button onclick="kalkulator('3')">*</button>
+        <button onclick="kalkulator('4')">/</button>
+        <button onclick="kalkulator('5')">%</button>
+    </div>  
+   <div id="kotak3">
+    <p> Hasil </p>
+    <input type="text" id='result' size="17" readonly >
+   </div>
+</div>
+
+
+
+
+<script src="kalku.js" type="text/javascript"></script>
+</body>
+</html>

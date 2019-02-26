@@ -1,0 +1,24 @@
+#kotak {
+    background-color: antiquewhite;
+    margin: 30px;
+    padding: 2px;
+}
+
+#kotak1 {
+    margin:15px;
+}
+#kotak2 {
+    margin:15px;
+
+}
+button{
+    padding:10px;
+}
+
+#kotak3 {
+    margin:15px;
+}
+
+input{
+    padding:5px;
+}
